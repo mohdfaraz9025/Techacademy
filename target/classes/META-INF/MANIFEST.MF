@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Built-By: Faraz
+Build-Jdk: 17.0.10
+Class-Path: lib/maven-surefire-plugin-3.1.2.jar lib/maven-surefire-commo
+ n-3.1.2.jar lib/surefire-api-3.1.2.jar lib/surefire-logger-api-3.1.2.ja
+ r lib/surefire-extensions-api-3.1.2.jar lib/surefire-booter-3.1.2.jar l
+ ib/surefire-extensions-spi-3.1.2.jar lib/aether-util-1.0.0.v20140518.ja
+ r lib/aether-api-1.0.0.v20140518.jar lib/maven-common-artifact-filters-
+ 3.1.1.jar lib/maven-artifact-3.1.0.jar lib/plexus-utils-3.0.10.jar lib/
+ maven-core-3.1.0.jar lib/maven-settings-3.1.0.jar lib/maven-settings-bu
+ ilder-3.1.0.jar lib/maven-repository-metadata-3.1.0.jar lib/maven-model
+ -builder-3.1.0.jar lib/maven-aether-provider-3.1.0.jar lib/aether-spi-0
+ .9.0.M2.jar lib/aether-impl-0.9.0.M2.jar lib/org.eclipse.sisu.plexus-0.
+ 0.0.M2a.jar lib/cdi-api-1.0.jar lib/jsr250-api-1.0.jar lib/javax.inject
+ -1.jar lib/sisu-guice-3.1.0-no_aop.jar lib/aopalliance-1.0.jar lib/org.
+ eclipse.sisu.inject-0.0.0.M2a.jar lib/plexus-interpolation-1.16.jar lib
+ /plexus-classworlds-2.4.2.jar lib/plexus-component-annotations-1.5.5.ja
+ r lib/plexus-sec-dispatcher-1.3.jar lib/plexus-cipher-1.4.jar lib/maven
+ -plugin-api-3.1.0.jar lib/plexus-java-1.1.2.jar lib/asm-9.4.jar lib/qdo
+ x-2.0.3.jar lib/surefire-shared-utils-3.1.2.jar lib/extentreports-5.0.1
+ .jar lib/rxjava-3.0.4.jar lib/reactive-streams-1.0.3.jar lib/freemarker
+ -2.3.30.jar lib/lombok-1.18.12.jar lib/gson-2.8.6.jar lib/webdrivermana
+ ger-5.4.1.jar lib/slf4j-api-2.0.7.jar lib/docker-java-3.3.2.jar lib/doc
+ ker-java-core-3.3.2.jar lib/docker-java-api-3.3.2.jar lib/jackson-annot
+ ations-2.10.3.jar lib/jackson-databind-2.10.3.jar lib/jackson-core-2.10
+ .3.jar lib/bcpkix-jdk15on-1.64.jar lib/bcprov-jdk15on-1.64.jar lib/jcl-
+ over-slf4j-1.7.30.jar lib/docker-java-transport-httpclient5-3.3.2.jar l
+ ib/docker-java-transport-3.3.2.jar lib/jna-5.12.1.jar lib/dec-0.1.2.jar
+  lib/commons-lang3-3.12.0.jar lib/httpclient5-5.2.1.jar lib/httpcore5-5
+ .2.jar lib/httpcore5-h2-5.2.jar lib/testng-7.4.0.jar lib/jcommander-1.7
+ 8.jar lib/jquery-3.5.1.jar lib/selenium-java-4.9.0.jar lib/selenium-api
+ -4.9.0.jar lib/selenium-chrome-driver-4.9.0.jar lib/auto-service-annota
+ tions-1.0.1.jar lib/auto-service-1.0.1.jar lib/auto-common-1.2.jar lib/
+ guava-31.1-jre.jar lib/failureaccess-1.0.1.jar lib/listenablefuture-999
+ 9.0-empty-to-avoid-conflict-with-guava.jar lib/jsr305-3.0.2.jar lib/che
+ cker-qual-3.12.0.jar lib/error_prone_annotations-2.11.0.jar lib/j2objc-
+ annotations-1.3.jar lib/selenium-chromium-driver-4.9.0.jar lib/selenium
+ -json-4.9.0.jar lib/selenium-manager-4.9.0.jar lib/selenium-devtools-v1
+ 10-4.9.0.jar lib/selenium-devtools-v111-4.9.0.jar lib/selenium-devtools
+ -v112-4.9.0.jar lib/selenium-devtools-v85-4.9.0.jar lib/selenium-edge-d
+ river-4.9.0.jar lib/selenium-firefox-driver-4.9.0.jar lib/selenium-http
+ -4.9.0.jar lib/failsafe-3.3.1.jar lib/selenium-ie-driver-4.9.0.jar lib/
+ selenium-remote-driver-4.9.0.jar lib/netty-buffer-4.1.91.Final.jar lib/
+ netty-codec-http-4.1.91.Final.jar lib/netty-codec-4.1.91.Final.jar lib/
+ netty-handler-4.1.91.Final.jar lib/netty-common-4.1.91.Final.jar lib/ne
+ tty-transport-classes-epoll-4.1.91.Final.jar lib/netty-transport-classe
+ s-kqueue-4.1.91.Final.jar lib/netty-transport-native-unix-common-4.1.91
+ .Final.jar lib/netty-transport-4.1.91.Final.jar lib/netty-resolver-4.1.
+ 91.Final.jar lib/opentelemetry-api-1.25.0.jar lib/opentelemetry-context
+ -1.25.0.jar lib/opentelemetry-exporter-logging-1.25.0.jar lib/opentelem
+ etry-sdk-metrics-1.25.0.jar lib/opentelemetry-sdk-logs-1.25.0-alpha.jar
+  lib/opentelemetry-api-logs-1.25.0-alpha.jar lib/opentelemetry-api-even
+ ts-1.25.0-alpha.jar lib/opentelemetry-sdk-common-1.25.0.jar lib/opentel
+ emetry-sdk-extension-autoconfigure-spi-1.25.0.jar lib/opentelemetry-sdk
+ -extension-autoconfigure-1.25.0-alpha.jar lib/opentelemetry-sdk-trace-1
+ .25.0.jar lib/opentelemetry-sdk-1.25.0.jar lib/opentelemetry-semconv-1.
+ 25.0-alpha.jar lib/jtoml-2.0.0.jar lib/byte-buddy-1.14.4.jar lib/common
+ s-exec-1.3.jar lib/async-http-client-2.12.3.jar lib/async-http-client-n
+ etty-utils-2.12.3.jar lib/netty-codec-socks-4.1.60.Final.jar lib/netty-
+ handler-proxy-4.1.60.Final.jar lib/netty-transport-native-epoll-4.1.60.
+ Final-linux-x86_64.jar lib/netty-transport-native-kqueue-4.1.60.Final-o
+ sx-x86_64.jar lib/netty-reactive-streams-2.0.4.jar lib/jakarta.activati
+ on-1.2.2.jar lib/selenium-safari-driver-4.9.0.jar lib/selenium-support-
+ 4.9.0.jar lib/poi-5.2.3.jar lib/commons-codec-1.15.jar lib/commons-coll
+ ections4-4.4.jar lib/commons-math3-3.6.1.jar lib/commons-io-2.11.0.jar 
+ lib/SparseBitSet-1.2.jar lib/log4j-api-2.18.0.jar lib/poi-ooxml-5.2.3.j
+ ar lib/poi-ooxml-lite-5.2.3.jar lib/xmlbeans-5.1.1.jar lib/commons-comp
+ ress-1.21.jar lib/curvesapi-1.07.jar lib/javautil-3.1.1.jar lib/activat
+ ion-1.1-rev-1.jar lib/mail-1.4.4.jar lib/asm-3.3.1.jar lib/asm-commons-
+ 3.3.1.jar lib/asm-tree-3.3.1.jar lib/commons-logging-1.1.1.jar
+Main-Class: your_main_class
+Created-By: Maven Integration for Eclipse
+
